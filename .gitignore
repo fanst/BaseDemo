@@ -1,0 +1,17 @@
+/BaseDemo.Component/bin
+
+/BaseDemo.Component/obj
+
+/BaseDemo.Component/*.user
+
+/BaseDemo.DataManage/bin
+/BaseDemo.DataManage/obj
+/BaseDemo.DataManage/*.user
+/BaseDemo.DataManage.Tests/bin
+/BaseDemo.DataManage.Tests/obj
+/BaseDemo.Web/bin
+/BaseDemo.Web/obj
+/BaseDemo.Web/*.user
+/BaseDemo.Web.Tests/bin
+/BaseDemo.Web.Tests/obj
+/BaseDemo.Web.Tests/*.user
