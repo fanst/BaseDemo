@@ -127,9 +127,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="entry-config.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\modules\base\main.js" />
+    <Content Include="Scripts\modules\base\base.html" />
+    <Content Include="Scripts\modules\main.js" />
+    <Content Include="Scripts\modules\page1\main.js" />
+    <Content Include="Scripts\modules\page1\page1.html" />
+    <Content Include="Scripts\modules\page2\main.js" />
+    <Content Include="Scripts\modules\page2\page2.html" />
+    <Content Include="Scripts\modules\router.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -139,12 +148,13 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\component\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -161,6 +171,9 @@
       <Project>{b4e7a95f-b91e-4d57-acdf-963563c82baa}</Project>
       <Name>BaseDemo.DataManage</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

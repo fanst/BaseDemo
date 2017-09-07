@@ -15,3 +15,5 @@
 /BaseDemo.Web.Tests/bin
 /BaseDemo.Web.Tests/obj
 /BaseDemo.Web.Tests/*.user
+/BaseDemo.Web/node_modules
+/*.suo
