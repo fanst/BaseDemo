@@ -17,3 +17,4 @@
 /BaseDemo.Web.Tests/*.user
 /BaseDemo.Web/node_modules
 /*.suo
+/BaseDemo.Web/Scripts/dist
