@@ -1,0 +1,27 @@
+﻿@charset "UTF-8";
+/*
+  单位换算：750px设计稿  100px=1rem
+*/
+
+/* reset css */
+html{font-size:100px;height:100%;-webkit-text-size-adjust: 100%;}
+html,body,div,span,p,input,label,button,textarea,h2,h3{margin: 0;padding: 0;border: 0;}
+body{font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei","微软雅黑",Arial,sans-serif;height: 100%;color: #333;font-size: 0.28rem;line-height: 1.2;}
+a{text-decoration: none;}
+em{font-style: normal;}
+img{vertical-align:middle;border:0;}
+button{overflow: visible;border: 0;outline: none; background-color: transparent;cursor: pointer;}
+input{border: 0;outline: none;}
+button,select{text-transform: none;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;padding:0;background:none;}
+textarea{outline: none; resize: none;-webkit-box-shadow:none;box-shadow:none;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+input,button,textarea,select{font-family: "PingFang SC","Noto Sans CJK SC","Microsoft YaHei","微软雅黑",Arial,sans-serif;color: #333;font-size: 0.28rem;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #d5d5d5;}
+.clearfix:after {content: " ";display: block;height: 0;clear: both;}
+*{ -moz-box-sizing: border-box;  /*Firefox3.5+*/ -webkit-box-sizing: border-box; /*Safari3.2+*/ -o-box-sizing: border-box; /*Opera9.6*/-ms-box-sizing: border-box; /*IE8*/ box-sizing: border-box; /*W3C(IE9+，*/}
+
+
+.top_bar {width:100%;height:1rem;text-align:center}
+.page_part {width: 32%;height: 1rem;display: inline-block;text-align: center;background-color:#fff}
+.container {min-height:100%;}
+.list-con {height:2rem;margin-top:0.2rem;background-color:#fff}

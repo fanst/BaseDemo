@@ -12,16 +12,16 @@ module.exports = {
     entry: entryConfig,
     output: {
         path: __dirname,
-        filename: "Scripts/dist/[name].js",
+        filename: "app/dist/[name].js",
 
         publicPath: "/", // 设置require.ensure路径
-        chunkFilename: "Scripts/dist/chunk/[name].js" // 设置require.ensure 文件名
+        chunkFilename: "app/dist/chunk/[name].js" // 设置require.ensure 文件名
     },
     //plugins: [
     //     new webpack.IgnorePlugin(/\.\/jquery.js$/),//ignoreFiles
     //],
     resolve: {
-        modules: ["Scripts", __dirname, "node_modules"],
+        modules: ["app", __dirname, "node_modules"],
         // modulesDirectories: ["common", __dirname, "node_modules"],
     },
     module: {

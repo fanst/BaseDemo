@@ -42,11 +42,6 @@ var Router = new VueRouter({
                             name: "page3_2",
                             path: "/page3_2",
                             component: page3_2
-                        },
-                        {
-                            path: "/*",
-                            component: page3_1,
-                            redirect: "/page3_1"
                         }
                     ]
                 },

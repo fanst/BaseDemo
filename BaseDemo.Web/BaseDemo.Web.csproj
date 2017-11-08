@@ -131,14 +131,20 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\modules\base\main.js" />
-    <Content Include="Scripts\modules\base\base.html" />
-    <Content Include="Scripts\modules\main.js" />
-    <Content Include="Scripts\modules\page1\main.js" />
-    <Content Include="Scripts\modules\page1\page1.html" />
-    <Content Include="Scripts\modules\page2\main.js" />
-    <Content Include="Scripts\modules\page2\page2.html" />
-    <Content Include="Scripts\modules\router.js" />
+    <Content Include="app\modules\base\main.js" />
+    <Content Include="app\modules\base\base.html" />
+    <Content Include="app\modules\main.js" />
+    <Content Include="app\modules\page1\main.js" />
+    <Content Include="app\modules\page1\page1.html" />
+    <Content Include="app\modules\page2\main.js" />
+    <Content Include="app\modules\page2\page2.html" />
+    <Content Include="app\modules\page3\base\main.js" />
+    <Content Include="app\modules\page3\base\base.html" />
+    <Content Include="app\modules\page3\page3_2\main.js" />
+    <Content Include="app\modules\page3\page3_2\page3_2.html" />
+    <Content Include="app\modules\page3\page3_1\main.js" />
+    <Content Include="app\modules\page3\page3_1\page3_1.html" />
+    <Content Include="app\modules\router.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,10 +157,10 @@
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\component\" />
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\component\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
