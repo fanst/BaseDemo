@@ -25,3 +25,6 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #d5
 .page_part {width: 32%;height: 1rem;display: inline-block;text-align: center;background-color:#fff}
 .container {min-height:100%;}
 .list-con {height:2rem;margin-top:0.2rem;background-color:#fff}
+
+.show_box {width: 80%;margin: 0 auto;background-color: #fff;height: 80%;top: 1rem;position: relative;}
+.head_img_box {width: 1.5rem;height: 2rem;background-color: #ddd;margin-left: 0.5rem;}

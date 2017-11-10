@@ -120,6 +120,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\PageDetailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -127,24 +128,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\css\style.css" />
+    <Content Include="app\modules\pagedetail\base\base.html" />
+    <Content Include="app\modules\pagedetail\base\main.js" />
+    <Content Include="app\modules\pagedetail\main.js" />
+    <Content Include="app\modules\pagedetail\page1\main.js" />
+    <Content Include="app\modules\pagedetail\page1\page1.html" />
+    <Content Include="app\modules\pagedetail\page2\main.js" />
+    <Content Include="app\modules\pagedetail\page2\page2.html" />
+    <Content Include="app\modules\pagedetail\router.js" />
     <Content Include="entry-config.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="app\modules\base\main.js" />
-    <Content Include="app\modules\base\base.html" />
-    <Content Include="app\modules\main.js" />
-    <Content Include="app\modules\page1\main.js" />
-    <Content Include="app\modules\page1\page1.html" />
-    <Content Include="app\modules\page2\main.js" />
-    <Content Include="app\modules\page2\page2.html" />
-    <Content Include="app\modules\page3\base\main.js" />
-    <Content Include="app\modules\page3\base\base.html" />
-    <Content Include="app\modules\page3\page3_2\main.js" />
-    <Content Include="app\modules\page3\page3_2\page3_2.html" />
-    <Content Include="app\modules\page3\page3_1\main.js" />
-    <Content Include="app\modules\page3\page3_1\page3_1.html" />
-    <Content Include="app\modules\router.js" />
+    <Content Include="app\modules\index\base\main.js" />
+    <Content Include="app\modules\index\base\base.html" />
+    <Content Include="app\modules\index\main.js" />
+    <Content Include="app\modules\index\page1\main.js" />
+    <Content Include="app\modules\index\page1\page1.html" />
+    <Content Include="app\modules\index\page2\main.js" />
+    <Content Include="app\modules\index\page2\page2.html" />
+    <Content Include="app\modules\index\page3\base\main.js" />
+    <Content Include="app\modules\index\page3\base\base.html" />
+    <Content Include="app\modules\index\page3\page3_2\main.js" />
+    <Content Include="app\modules\index\page3\page3_2\page3_2.html" />
+    <Content Include="app\modules\index\page3\page3_1\main.js" />
+    <Content Include="app\modules\index\page3\page3_1\page3_1.html" />
+    <Content Include="app\modules\index\router.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -158,6 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\component\" />
+    <Folder Include="app\css\image\" />
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
     <Folder Include="Models\" />
@@ -180,6 +191,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\PageDetail\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

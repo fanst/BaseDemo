@@ -42,9 +42,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!*****************************!*\
-  !*** ./app/modules/main.js ***!
-  \*****************************/
+/*!***********************************!*\
+  !*** ./app/modules/index/main.js ***!
+  \***********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -77,9 +77,9 @@
 
 /***/ }),
 /* 3 */
-/*!*******************************!*\
-  !*** ./app/modules/router.js ***!
-  \*******************************/
+/*!*************************************!*\
+  !*** ./app/modules/index/router.js ***!
+  \*************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	//模块路由文件
@@ -152,9 +152,9 @@
 
 /***/ }),
 /* 5 */
-/*!**********************************!*\
-  !*** ./app/modules/base/main.js ***!
-  \**********************************/
+/*!****************************************!*\
+  !*** ./app/modules/index/base/main.js ***!
+  \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -186,18 +186,18 @@
 
 /***/ }),
 /* 6 */
-/*!************************************!*\
-  !*** ./app/modules/base/base.html ***!
-  \************************************/
+/*!******************************************!*\
+  !*** ./app/modules/index/base/base.html ***!
+  \******************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<div id=\"root\" style=\"height:100%\"> <div style=\"background-color:#eee;height:100%\"> <div class=\"top_bar\"> <router-link to=\"/page1\" tag=\"div\" active-class=\"current\" class=\"page_part\"> pag1 </router-link> <router-link to=\"/page2\" tag=\"div\" active-class=\"current\" class=\"page_part\"> pag2 </router-link> <router-link to=\"/page3\" tag=\"div\" active-class=\"current\" class=\"page_part\"> pag3 </router-link> </div> <router-view></router-view> </div> </div>";
 
 /***/ }),
 /* 7 */
-/*!***********************************!*\
-  !*** ./app/modules/page1/main.js ***!
-  \***********************************/
+/*!*****************************************!*\
+  !*** ./app/modules/index/page1/main.js ***!
+  \*****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -229,18 +229,18 @@
 
 /***/ }),
 /* 8 */
-/*!**************************************!*\
-  !*** ./app/modules/page1/page1.html ***!
-  \**************************************/
+/*!********************************************!*\
+  !*** ./app/modules/index/page1/page1.html ***!
+  \********************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<div id=\"page1List\"> <div class=\"container\"> <div class=\"list-con\">pag1 content</div> <div class=\"list-con\">pag1 content</div> <div class=\"list-con\">pag1 content</div> <div class=\"list-con\">pag1 content</div> </div> </div> ";
 
 /***/ }),
 /* 9 */
-/*!***********************************!*\
-  !*** ./app/modules/page2/main.js ***!
-  \***********************************/
+/*!*****************************************!*\
+  !*** ./app/modules/index/page2/main.js ***!
+  \*****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -272,18 +272,18 @@
 
 /***/ }),
 /* 10 */
-/*!**************************************!*\
-  !*** ./app/modules/page2/page2.html ***!
-  \**************************************/
+/*!********************************************!*\
+  !*** ./app/modules/index/page2/page2.html ***!
+  \********************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<p>pag2 content</p> ";
 
 /***/ }),
 /* 11 */
-/*!****************************************!*\
-  !*** ./app/modules/page3/base/main.js ***!
-  \****************************************/
+/*!**********************************************!*\
+  !*** ./app/modules/index/page3/base/main.js ***!
+  \**********************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -315,18 +315,18 @@
 
 /***/ }),
 /* 12 */
-/*!******************************************!*\
-  !*** ./app/modules/page3/base/base.html ***!
-  \******************************************/
+/*!************************************************!*\
+  !*** ./app/modules/index/page3/base/base.html ***!
+  \************************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<div> <router-link to=\"/page3_1\" tag=\"li\" active-class=\"current\" class=\"sub-nav-li4\"> pag3_1 </router-link> <router-link to=\"/page3_2\" tag=\"li\" active-class=\"current\" class=\"sub-nav-li4\"> pag3_2 </router-link> <router-view></router-view> </div> ";
 
 /***/ }),
 /* 13 */
-/*!*******************************************!*\
-  !*** ./app/modules/page3/page3_1/main.js ***!
-  \*******************************************/
+/*!*************************************************!*\
+  !*** ./app/modules/index/page3/page3_1/main.js ***!
+  \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -358,18 +358,18 @@
 
 /***/ }),
 /* 14 */
-/*!************************************************!*\
-  !*** ./app/modules/page3/page3_1/page3_1.html ***!
-  \************************************************/
+/*!******************************************************!*\
+  !*** ./app/modules/index/page3/page3_1/page3_1.html ***!
+  \******************************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<p>pag3_1 content</p> ";
 
 /***/ }),
 /* 15 */
-/*!*******************************************!*\
-  !*** ./app/modules/page3/page3_2/main.js ***!
-  \*******************************************/
+/*!*************************************************!*\
+  !*** ./app/modules/index/page3/page3_2/main.js ***!
+  \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -401,9 +401,9 @@
 
 /***/ }),
 /* 16 */
-/*!************************************************!*\
-  !*** ./app/modules/page3/page3_2/page3_2.html ***!
-  \************************************************/
+/*!******************************************************!*\
+  !*** ./app/modules/index/page3/page3_2/page3_2.html ***!
+  \******************************************************/
 /***/ (function(module, exports) {
 
 	module.exports = "<p>pag3_2 content</p> ";
