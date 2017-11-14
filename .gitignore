@@ -18,3 +18,4 @@
 /BaseDemo.Web/node_modules
 /*.suo
 /BaseDemo.Web/Scripts/dist
+/.vs
