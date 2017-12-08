@@ -19,3 +19,4 @@
 /*.suo
 /BaseDemo.Web/Scripts/dist
 /.vs
+/BaseDemo.Web/app/dist

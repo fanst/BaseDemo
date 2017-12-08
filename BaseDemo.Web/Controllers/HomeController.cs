@@ -15,7 +15,7 @@ namespace BaseDemo.Web.Controllers
             using (ReadUnitOfWork) 
             {
                 var userService = new UserManageService(ReadUnitOfWork);
-                var result = userService.CheckUser("开发", "code");
+                var result = userService.CheckUser("开发", "fanst");
                 return View();
             }
         }
